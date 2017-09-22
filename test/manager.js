@@ -1,4 +1,4 @@
-
+// var assert = require('assert');
 var M = module.exports = {}
 
 var ccc = {id: 'ccc', password: '1234567'}
@@ -20,3 +20,4 @@ M.login = function (id, password) {
 // console.log('user1=%j', user1)
 // var user2 = M.login('ccc', '1234567')
 // console.log('user2=%j', user2)
+
